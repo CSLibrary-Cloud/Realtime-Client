@@ -13,6 +13,8 @@ repositories {
 
 dependencies {
     implementation("io.ktor:ktor-client-websockets:1.5.4")
+    implementation("io.ktor:ktor-jackson:1.5.4")
+    implementation("io.ktor:ktor-client-jackson:1.5.4")
 //    implementation("io.ktor:ktor-client-apache:1.5.4")
     implementation("io.ktor:ktor-client-cio:1.5.4")
 
